@@ -9,4 +9,5 @@
   <dimen name="raised_button_default_elevation">2dp</dimen>
   <dimen name="default_padding">8dp</dimen>
   <dimen name="current_target_amount_text_size">24sp</dimen>
+  <dimen name="text_margin">16dp</dimen>
 </resources>
