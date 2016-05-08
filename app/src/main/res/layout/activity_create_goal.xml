@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.goals.avigailfohrman.ripple.CreateGoalActivity">
+  <TextView
+      android:id="@+id/NameGoalText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/name_goal_text"
+      android:padding="@dimen/default_padding"/>
+  <EditText
+      android:id="@+id/NameGoalTextBox"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/default_padding"/>
+  <TextView
+      android:id="@+id/TargetAmountText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/default_padding"
+      android:inputType="text"
+      android:hint="@string/create_goal_text"
+      android:text="@string/target_goal_amount_text"/>
+  <android.support.v7.widget.AppCompatSeekBar
+      android:id="@+id/TargetAmountSeekBarInput"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/default_padding"
+      android:textColor="@color/colorPrimaryDark"
+      android:max="1000"/>
+  <TextView
+      android:id="@+id/TargetCurrentAmountText"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/default_padding"
+      android:layout_gravity="center"
+      android:textColor="@color/colorPrimary"
+      android:textSize="@dimen/current_target_amount_text_size"/>
+  <Button
+      android:id="@+id/CreateGoalButton"
+      android:layout_width="@dimen/raised_button_width"
+      android:layout_height="@dimen/raised_button_height"
+      android:elevation="@dimen/raised_button_default_elevation"
+      android:background="@color/colorAccent"
+      android:text="@string/create_button_text"
+      android:padding="@dimen/default_padding"
+      android:layout_margin="@dimen/default_padding"
+      android:layout_gravity="center" />
+</LinearLayout>
