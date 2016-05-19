@@ -7,6 +7,8 @@
   <string name="create_goal_text">Create Goal</string>
   <string name="create_button_text">Create</string>
   <string name="name_goal_text">Goal name</string>
-  <string name="target_goal_amount_text">Set the amount of times the goal should be accomplished</string>
+  <string name="target_goal_amount_text">Set the amount of times to complete the goal</string>
   <string name="initial_goal_target">1</string>
+  <string name="your_name">Your name</string>
+  <string name="sample_name">AvigailF</string>
 </resources>

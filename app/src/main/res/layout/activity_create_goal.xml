@@ -15,26 +15,46 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/name_goal_text"
-      android:padding="@dimen/default_padding"/>
+      android:padding="@dimen/default_padding"
+      android:layout_margin="@dimen/default_padding"/>
   <EditText
       android:id="@+id/NameGoalTextBox"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:padding="@dimen/default_padding"/>
+      android:padding="@dimen/default_padding"
+      android:layout_margin="@dimen/default_padding"
+      android:inputType="text"/>
+
+  <TextView
+      android:id="@+id/CreatorNameGoalText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/your_name"
+      android:padding="@dimen/default_padding"
+      android:layout_margin="@dimen/default_padding"/>
+
+  <EditText
+      android:id="@+id/CreatorNameGoalTextBox"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/default_padding"
+      android:inputType="text"/>
   <TextView
       android:id="@+id/TargetAmountText"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:padding="@dimen/default_padding"
-      android:inputType="text"
       android:hint="@string/create_goal_text"
-      android:text="@string/target_goal_amount_text"/>
+      android:text="@string/target_goal_amount_text"
+      android:layout_margin="@dimen/default_padding"/>
   <android.support.v7.widget.AppCompatSeekBar
       android:id="@+id/TargetAmountSeekBarInput"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:padding="@dimen/default_padding"
       android:textColor="@color/colorPrimaryDark"
+      android:layout_margin="@dimen/default_padding"
+      android:layout_marginTop="24dp"
       android:max="1000"/>
   <TextView
       android:id="@+id/TargetCurrentAmountText"
@@ -43,12 +63,13 @@
       android:padding="@dimen/default_padding"
       android:layout_gravity="center"
       android:textColor="@color/colorPrimary"
-      android:textSize="@dimen/current_target_amount_text_size"/>
+      android:textSize="@dimen/current_target_amount_text_size"
+      android:layout_margin="@dimen/default_padding"/>
+
   <Button
       android:id="@+id/CreateGoalButton"
       android:layout_width="@dimen/raised_button_width"
       android:layout_height="@dimen/raised_button_height"
-      android:elevation="@dimen/raised_button_default_elevation"
       android:background="@color/colorAccent"
       android:text="@string/create_button_text"
       android:padding="@dimen/default_padding"
